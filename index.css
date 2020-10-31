@@ -1,34 +1,95 @@
-body{
+body
+{
     background-color: rgb(180, 180, 180);
 }
+.container{
+    background-color: rgb(46, 44, 44);
+    margin: auto;
+}
 
-.menu{
+.nav{
     background-color: rgb(248, 244, 244);
-    padding: 10px;
     list-style: none;
     width: 100%;
+    height: 90px;
     max-width: 1025px;
     margin-left: 100px;
     text-align: center;
 }
-
-.menu li a{
+.nav li a{
     text-decoration: none;
     color: rgb(24, 23, 23);
-    padding: 20px;
+    padding: 33px;
     display: block;
 }
 
-.menu li{
+.nav li{
     display: inline-block;
     text-align: around;
 }
 
-.menu li a:hover{
-    background: rgb(235, 0, 109);
+ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+}
+  
+ul.slider{
+    position: relative;
+    width: 750px;
+    height: 300px;
+}
+  
+ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background:rgb(88, 85, 85);
+}
+  
+ul.slider li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    text-align: center;
+}
+  
+ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+}
+  
+ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+}
+  
+.menu{
+    text-align: center;
+    margin: 20px;
+}
+  
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+  
+.menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
 }
 
-.container{
-    background-color: rgb(56, 55, 55);
+.car{
     margin: auto;
+    width: 800px;
+    padding: 30px
 }
