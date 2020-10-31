@@ -139,3 +139,33 @@ ul.slider li:target {
     max-width: 400px;
     padding: 15px 15px 15px 15px;
 }
+
+.tradiciones .list-group{
+    padding: 140px 100px;
+}
+
+.container-tradiciones{
+    margin: 0;
+}
+
+.container-tradiciones .imagenTradicion img{
+    justify-content: center;
+    margin: 10px 175px 30px;
+    width: 600px;
+    height: 400px;
+}
+
+.listaTradiciones{
+    margin: 100px 0px 20px 0px;
+    padding: 40px 0px 60px 10px;
+}
+.listaT .list-group-item{
+    margin: 0;
+    padding: 10px 0px 15px 10px;
+}
+
+.container-tradiciones-info p{
+    text-align: justify;
+    color: black;
+    padding: 40px;
+}
