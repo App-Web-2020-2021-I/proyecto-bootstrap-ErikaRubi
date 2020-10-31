@@ -128,3 +128,14 @@ ul.slider li:target {
     font-size: 2em;
     color: black;
 }
+
+.container-imagenLogin img{
+    justify-content: center;
+    max-width: 250px;
+    padding: 20px 0px 15px 15px;
+}
+.container-imagenRegistro img{
+    justify-self: center;
+    max-width: 400px;
+    padding: 15px 15px 15px 15px;
+}
