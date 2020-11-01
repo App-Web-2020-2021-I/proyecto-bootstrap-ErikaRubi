@@ -140,6 +140,7 @@ ul.slider li:target {
     padding: 15px 15px 15px 15px;
 }
 
+                /*TRADICIONES*/
 .tradiciones .list-group{
     padding: 140px 100px;
 }
@@ -168,4 +169,60 @@ ul.slider li:target {
     text-align: justify;
     color: black;
     padding: 40px;
+}
+
+.container-lugaresTuristicos{
+    padding: 40px;
+    background-color: rgb(249, 208, 37);
+    padding-left: 150px;
+    margin: 30px 25px;
+}
+
+.container-lugar-turistico{
+    padding: 40px;
+    background-color: rgb(37,190,249);
+    padding-left: 10px;
+    margin: 30px 25px;
+}
+
+
+.carLT ul{
+    margin: 20px;
+    width: 500px;
+    padding: 10px;
+    justify-content: start;
+}
+
+.card{
+    margin: 55px 20px 10px;
+    padding: 0px 0px 10px;
+    justify-content: center;
+}
+
+/*
+
+.container-lugaresTuristicos{
+    overflow-y: auto;
+}
+
+.container-lugaresTuristicos::-webkit-scrollbar{
+    width: 10px;
+    background: rgb(153, 123, 123);
+}
+.container-lugaresTuristicos::-webkit-scrollbar{
+    
+    background: darkred;
+    border-radius: 10px;
+}*/
+
+.container-lugaresTuristicos{
+    overflow-y: auto;
+}
+.container-lugaresTuristicos::-webkit-scrollbar{
+    width: 10px;
+    background: royalblue;
+}
+.container-lugaresTuristicos::-webkit-scrollbar-thumb{
+    background: rgb(27, 230, 0);
+    border-radius: 10px;
 }
