@@ -199,6 +199,19 @@ ul.slider li:target {
     justify-content: center;
 }
 
+.botonZona i{
+    font-size: 3em;
+    color:black;
+    text-align: center;
+    margin: 20px;
+    padding: 34px;
+}
+.container-hoteles{
+    padding: 40px;
+    background-color: rgb(37,190,249);
+    padding-left: 10px;
+    margin: 30px 25px;
+}
 /*
 
 .container-lugaresTuristicos{
