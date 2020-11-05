@@ -121,35 +121,40 @@
 </div>
 <!--Modal Inicio de sesión-->
 <div class="modal" id="modalIS" tabindex="-1">
-  <div class="modal-dialog">
-      <div class="modal-content">
+  <div class="modal-dialog modal-lg">
+      <div class="modal-content" style="background-color: rgb(243,29,129);">
           <div class="modal-header">
-              <h5 class="modal-title">Inicio de sesión</h5>
+              <h5 class="modal-title"></h2>Inicio de sesión</h2>
               <button type="button" class="close" data-dismiss="modal">
                   <span>&times;</span>
               </button>
           </div>
+          <form action="#" class="">
           <div class="row">
-            <div class="col-6">
+            <div class="col-4">
             <div class="container-imagenLogin">
               <img src="Imagenes/Imagen Inicio Sesion Modal.jpg" alt="">
             </div>
           </div>
-            <div class="col-6">
-              <div class="modal-body">
-                <form>
-                    <div class="form-group">
-                        <label for="login_email">Correo</label>
-                        <input type="text" id="login_email" name="login_email" class="form-control">
-                    </div>  
-                    <div class="form-group">
-                        <label for="login_pass">Contraseña</label>
-                        <input type="password" id="login_pass" name="login_pass" class="form-control">
-                    </div>                           
-                </form>
+          <div class="col-8">
+            <div class="modal-body" style="padding-top: 140px;">
+              <div class="form-group row inicioSelementos">
+               <label for="login_user" class="col-sm-2 col-form-label">Nombre Usuario</label>
+                <div class="col-sm-10">
+                  <input type="text" id="login_user" name="login_user" class="form-control">
+               </div>
+             </div>
+              <div class="form-group row">
+                <label for="login_pass" class="col-sm-2 col-form-label">Contraseña</label>
+                <div class="col-sm-10">
+                      <input type="password" id="login_pass" name="login_pass" class="form-control">
+                    </div>
               </div>
-            </div>
+            </div> 
           </div>
+          
+          </div>
+        </form>
           <div class="modal-footer">
               <button class="btn btn-primary">
                   Aceptar
@@ -165,7 +170,7 @@
 <!--Modal Registro-->
 <div class="modal" id="modalR" tabindex="-1">
   <div class="modal-dialog modal-lg">
-      <div class="modal-content">
+      <div class="modal-content" style="background-color: rgb(243,29,129);">
           <div class="modal-header">
               <h5 class="modal-title">Registro</h5>
               <button type="button" class="close" data-dismiss="modal">
