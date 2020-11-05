@@ -188,6 +188,9 @@ ul.slider li:target {
     padding-left: 60px;
 }
 
+.Info-Hoteles i{
+    color:rgba(255, 238, 0, 0.993);
+}
 
 .carLT ul{
     margin: 20px;
@@ -262,4 +265,19 @@ ul.slider li:target {
 .comentarios::-webkit-scrollbar-thumb{
     border-radius: 20px;
     background-color:rgb(135, 219, 0);
+}
+
+.container-hoteles{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.container-hoteles::-webkit-scrollbar{
+    width: 15px;
+    background-color:rgb(37,190,249) ;
+}
+
+.container-hoteles::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color: rgb(255,0,136);
 }
