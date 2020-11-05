@@ -184,6 +184,9 @@ ul.slider li:target {
     padding-left: 10px;
     margin: 30px 25px;
 }
+.infoLugar{
+    padding-left: 60px;
+}
 
 
 .carLT ul{
@@ -237,6 +240,7 @@ ul.slider li:target {
 
 .container-lugaresTuristicos{
     overflow-y: auto;
+    overflow-x: hidden;
 }
 .container-lugaresTuristicos::-webkit-scrollbar{
     width: 20px;
@@ -245,4 +249,17 @@ ul.slider li:target {
 .container-lugaresTuristicos::-webkit-scrollbar-thumb{
     background: rgb(233, 5, 5);
     border-radius: 20px;
+}
+
+.comentarios{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.comentarios::-webkit-scrollbar{
+    width: 5px;
+    background-color:white ;
+}
+.comentarios::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color:rgb(135, 219, 0);
 }
