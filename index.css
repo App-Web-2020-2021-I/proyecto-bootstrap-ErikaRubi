@@ -172,17 +172,17 @@ ul.slider li:target {
 }
 
 .container-lugaresTuristicos{
-    padding: 40px;
+    padding: 30px;
     background-color: rgb(249, 208, 37);
-    padding-left: 30px;
-    margin: 30px 25px;
+    padding-left: 70px;
+    margin: 30px 30px;
 }
 
 .container-lugar-turistico{
     padding: 40px;
     background-color: rgb(37,190,249);
     padding-left: 10px;
-    margin: 30px 25px;
+    margin: 30px 25px 0px 0px;
 }
 .infoLugar{
     padding-left: 60px;
@@ -213,10 +213,10 @@ ul.slider li:target {
     padding: 34px;
 }
 .container-hoteles{
-    padding: 40px;
+    padding: 0px;
     background-color: rgb(37,190,249);
-    padding-left: 30px;
-    margin: 30px 25px;
+    padding-right: 180px;
+    margin: 30px 5px;
 }
 
 .container-hotel{
@@ -244,6 +244,7 @@ ul.slider li:target {
 .container-lugaresTuristicos{
     overflow-y: auto;
     overflow-x: hidden;
+    direction: rtl;
 }
 .container-lugaresTuristicos::-webkit-scrollbar{
     width: 20px;
@@ -257,6 +258,7 @@ ul.slider li:target {
 .comentarios{
     overflow-y: auto;
     overflow-x: hidden;
+    direction: rtl;
 }
 .comentarios::-webkit-scrollbar{
     width: 5px;
@@ -270,6 +272,11 @@ ul.slider li:target {
 .container-hoteles{
     overflow-y: auto;
     overflow-x: hidden;
+    direction: rtl;
+}
+/*Necesario para separar la direccion de acomodo de las tarjetas del scrollbar*/
+.container-hoteles .card{
+direction: ltr;
 }
 
 .container-hoteles::-webkit-scrollbar{
