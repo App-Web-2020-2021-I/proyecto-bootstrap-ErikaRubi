@@ -127,15 +127,42 @@ ul.slider li:target {
 }
 
     /*Scroll de lista de tradiciones*/
-    .container-AdminTrad{
+    .AdminlistaTrad{
         overflow-y: auto;
         overflow-x: hidden;
     }
-    .container-AdminTrad::-webkit-scrollbar{
+    .AdminlistaTrad::-webkit-scrollbar{
         width: 15px;
         background-color: rgb(214, 150, 243);
     }
-    .container-AdminTrad::-webkit-scrollbar-thumb{
+    .AdminlistaTrad::-webkit-scrollbar-thumb{
         border-radius: 20px;
         background-color:rgb(218, 201, 53);
     }
+
+.AdminlistaHoteles{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.AdminlistaHoteles::-webkit-scrollbar{
+    width: 15px;
+    background-color: rgb(145, 124, 134);
+}
+.AdminlistaHoteles::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color:rgb(70, 78, 57);
+}
+
+.container-AdmincomenariosHotel{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.container-AdmincomenariosHotel::-webkit-scrollbar{
+    width: 15px;
+    background-color: rgb(145, 124, 134);
+}
+.container-AdmincomenariosHotel::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color:rgb(70, 78, 57);
+}
